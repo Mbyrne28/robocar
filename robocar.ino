@@ -1,11 +1,13 @@
 // Robocar - logo to motion
 
+// Import Adafruit motor libary
 #include <AFMotor.h>
 
 AF_DCMotor motor01(1);
 AF_DCMotor motor02(2);
 
 void setup() {
+  // Initilaize motors
   Serial.begin(9600);
   Serial.println("Motor test!");
 
