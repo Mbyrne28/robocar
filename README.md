@@ -1,5 +1,4 @@
 # Robocar
-* * *
 
 Translate [Turtle Graphic](https://en.wikipedia.org/wiki/Turtle_graphics) commands so the Arduino Robocar can execute them
 
@@ -26,6 +25,25 @@ Turns the turtle counterclockwise by the specified angle (One input)
 Turns the turtle clockwise by the specified angle (One input)
 
 ## Motor control
-- Select the motor (1-4), the command, 
-- and the speed (0-255).
-- The commands are: FORWARD, BACKWARD, BRAKE, RELEASE.
+Select the motor (1-4), the command, 
+
+and the speed (0-255).
+
+The commands are: FORWARD, BACKWARD, BRAKE, RELEASE.
+
+## Example program
+1. Draw a square 100 x 100
+
+fd 100
+
+rt 90
+
+fd 100
+
+rt 90
+
+fd 100
+
+rt 90
+
+fd 100
