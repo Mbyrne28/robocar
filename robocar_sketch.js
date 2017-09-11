@@ -8,6 +8,9 @@ var rawTurtle = "fd 100, fd 500, rt 70, fd 100"
 var exeTime = 0
 var motorPause = 10
 //var cmd = {execution_time:0, mcmd:''}
+//
+// Write the test cases based on the rawTurtle
+//
 function processTurtle(t){
 	t = t.split(", ")
 	//var cmd = {execution_time:0, mcmd:''}
@@ -45,6 +48,8 @@ function processTurtle(t){
 
 }
 
+// The main program loop exectues a procedural set of commands provided by the processTurtle function
+// When a command is executed it is removed from the stack
 function loop(){
 
 	//console.log(command_list);
